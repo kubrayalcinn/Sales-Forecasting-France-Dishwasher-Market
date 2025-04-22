@@ -1,45 +1,41 @@
-📊 Forecasting Sales — France Dishwasher Market
+# 📊 Forecasting Sales — France Dishwasher Market
 
-This project focuses on predicting monthly dishwasher unit sales in the French market using machine learning techniques. By combining market trend analysis with multiple forecasting models, this project helps uncover patterns across brands, pricing, seasonality, and more — offering valuable insights for demand planning and retail strategy.
+This project focuses on predicting monthly dishwasher unit sales in the French market using machine learning techniques.(Jupyter Notebooks are provided.) By combining market trend analysis with multiple forecasting models, this project helps uncover patterns across brands, pricing, seasonality, offering valuable insights.
 
-Project Objective: Forecasting Units Sold
+# Project Objective: Forecasting Units Sold
 
-Inputs:
+# Inputs:
 
 ["Size", "Brand", "Noise Level DB", "Energy Class", "Season", "Water Protect", "Construction Type", "Half Load", "Integration", "Inverter Motor", "Selling Shops", "Material", "NO OF Placesets", "NO. OF Progr.", "Program Autom.", "Remaining Time", "Sliding Hinges", "Smart Connect", "Third Rack", "Color" "Price"]
 
 
-Project Structure
+# Project Structure
+
 1. Dataset Exploration
 A closer look into the dishwasher sales dataset, including:
 
--Product model and brand information
--Historical sales volume
--Pricing trends and promotional flags
--Seasonal patterns and selling platforms
+Product model and brand information, Historical sales volume, Pricing trends and promotional flags, Seasonal patterns and selling platforms
 
-3. Data Preprocessing
+2. Data Preprocessing
 Steps include:
 
--Handling missing values and outliers
--Normalizing and encoding categorical variables
--Temporal feature extraction from date fields
+Handling missing values and outliers, Normalizing and encoding categorical variables, Temporal feature extraction from date fields
 
-4. Market Analysis
+3. Market Analysis
 Performed exploratory data analysis (EDA) to understand:
 
--Top-selling brands and models
--Price vs. unit relationships
--Monthly demand shifts and trends
+Top-selling brands and models, Price vs. unit relationships, Monthly demand shifts and trends
 
-5. Modeling & Forecasting
+4. Modeling & Forecasting
 Tested multiple machine learning models:
 
 ✅ Random Forest Regressor – with feature importance insights
+
 ✅ LightGBM – optimized for large datasets and fast training
+
 ✅ HistGradientBoosting – applied to actual February 2025 market data
 
-6. Model Optimization
+5. Model Optimization
 Performed hyperparameter tuning using cross-validation
 Selected models based on evaluation metrics including:
 
@@ -47,6 +43,6 @@ Selected models based on evaluation metrics including:
 -Root Mean Squared Error (RMSE)
 -R² Score
 
-8. Final Evaluation
+6. Final Evaluation
 -Evaluated model predictions on real sales data for February 2025
 -Compared predicted units vs. actual units for top models
